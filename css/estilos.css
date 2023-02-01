@@ -8,6 +8,20 @@ body {
     padding: 0
 }
 
+#cabecera {
+    background: #33A, url("../imagenes/dragon.png") 10px 10px;
+    box-shadow: 0 2px 20px 0 rgba(0, 0, 0, .5);
+    color: #fff;
+    font-weight: 700;
+    margin: 0;
+    padding: .5em
+}
+
+#cabecera #logo {
+    width: 30px;
+    vertical-align: middle
+}
+
 #cabecera #tagline {
     padding: 0 0 0 1em;
     font-weight: 400;
@@ -34,6 +48,13 @@ body {
 
 #titulo {
     background: rgb(35, 117, 224);
+    color:white;
+    text-align: center;
+    padding: 0.5em;
+}
+
+#footer {
+    background: #777;
     color:white;
     text-align: center;
     padding: 0.5em;
